@@ -2,9 +2,12 @@
 
 __author__ = "730401590"
 
-value_1 = input("Left-hand side: 9")
-value_2 = input("Right-hand side: 5")
-print("9 ** 5 is 59049")
-print("9 / 5 is 1.8")
-print("9 // 5 is 1")
-print("9 % 5 is 4")
+value_1 = str(input("Left-hand side: "))
+value_1 = int(value_1)
+value_2 = str(input("Right-hand side: "))
+value_2 = int(value_2)
+
+print(value_1, "**", value_2, "is", value_1 ** value_2)
+print(value_1, "/", value_2, "is", value_1 / value_2)
+print(value_1, "//", value_2, "is", value_1 // value_2)
+print(value_1, "%", value_2, "is", value_1 % value_2)

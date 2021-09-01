@@ -2,9 +2,10 @@
 
 __author__ = "730401590"
 
-value_1 = input("Left-hand side: 4")
-value_2 = input("Right-hand side: 3")
-print("4 < 3 is False")
-print("4 >= 3 is True")
-print("4 == 3 is False")
-print("4 != 3 is True")
+value_1 = str(input("Left-hand side: "))
+value_2 = str(input("Right-hand side: "))
+
+print(value_1, "<" + value_2, "is", bool(value_1 < value_2))
+print(value_1, ">=", value_2, "is", bool(value_1 >= value_2)
+print(value_1 + "==" + value_2, "is", bool(value_1 == value_2)
+print (value_1, "!=", value_2, "is", bool(value_1 != value_2)
