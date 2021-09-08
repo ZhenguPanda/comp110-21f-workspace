@@ -1,4 +1,4 @@
-"""Numeric Operators: To see how numbers work"""
+"""Numeric Operators: This demonstration will help me see how numbers work."""
 
 __author__ = "730401590"
 
