@@ -11,10 +11,23 @@ __author__ = "730401590"
 # It will evaluate to an int value >= 1 and <= 100. 
 import random
 
-lines = ("Do not mistake temptation for opportunity.", "If you look back, you’ll soon be going that way.", "Flattery will go far tonight.")
+a: str = "Do not mistake temptation for opportunity."
+b: str = "If you look back, you’ll soon be going that way."
+c: str = "Flattery will go far tonight."
+d: str = "Be quiet for a little while."
 
-str = results = random.choice(lines)
+e: int = random.randint(1, 4)
 
 print("Your fortune cookie says...")
-print(results)
+if e == 1: 
+    print(a)
+else:
+    if e == 2:
+        print(b)
+    else:
+        if e == 3:
+            print(c)
+        else:
+            if e == 4:
+                print(d)
 print("Now, go spread positive vibes!")
